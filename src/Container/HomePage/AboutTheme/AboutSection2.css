@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.aboutMainParent {
+  background-image: url("../../../assets/web-development-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.abtParent {
+  display: flex;
+  justify-content: center;
+}
+.aboutCont1 {
+  /* width: 30%; */
+  padding: 10px;
+}
+.paraTextAbout2 {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+.aboutCont1 h1 {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #000;
+}
+.matrix {
+  font-weight: bolder;
+  font-size: 1.7rem;
+  font-family: "Dancing Script", cursive;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.percentText {
+  margin: 15px 0;
+  position: relative;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 0.7rem;
+  width: 100%;
+}
+.percentText span {
+  position: absolute;
+  right: 20%;
+}
+.percContainer {
+  width: 10 0%;
+  border: 2px solid #3a71d7;
+  height: 15px;
+  border-radius: 30px;
+}
+.setClr {
+  width: 0%;
+  background-color: #3a71d7;
+  border: #3a71d7;
+  height: 12px;
+  border-radius: 30px;
+  transition: 1s;
+}
+.setWidth {
+  width: 95%;
+  background-color: #3a71d7;
+  border: #3a71d7;
+  height: 12px;
+  border-radius: 30px;
+  transition: 2s;
+}
+.setGraphicAndWeb {
+  width: 90%;
+  background-color: #3a71d7;
+  border: #3a71d7;
+  height: 12px;
+  border-radius: 30px;
+  transition: 2s;
+}
+.scrollProges {
+  width: 50%;
+}
+@media only screen and (max-width: 670px) {
+  .abtParent {
+    flex-direction: column;
+  }
+  .aboutCont2,
+  .aboutCont1 {
+    width: 80%;
+  }
+  .percentText {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .percentText span {
+    right: 10%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .percentText {
+    font-size: 0.5rem;
+  }
+  .abtParent {
+    padding: 0;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}

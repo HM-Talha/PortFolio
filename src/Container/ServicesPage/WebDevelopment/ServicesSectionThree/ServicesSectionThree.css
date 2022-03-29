@@ -1,0 +1,106 @@
+.sectionThreeParent {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.sercChildOne {
+  width: 65%;
+  padding: 10px;
+}
+.sercChildTwo {
+  width: 33%;
+}
+
+.planningBox h5 {
+  font-weight: bolder;
+  color: #1a1f33;
+}
+.planningBox p {
+  color: gray;
+}
+.researchBox {
+  margin: 40px 0;
+}
+.researchBox p {
+  position: relative;
+  padding-left: 25px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.researchBox .checkLogo {
+  position: absolute;
+  font-size: 1.2rem;
+  padding-top: 4px;
+  left: 1px;
+}
+.paraBox {
+  margin: 30px 0;
+}
+.paraBox p {
+  color: gray;
+  line-height: 25px;
+}
+
+.dropDownParent section {
+  margin: 20px 0 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.dropDownParent h5 {
+  margin: 0;
+  padding: 10px 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.dropDownParent p {
+  margin: 0;
+  padding: 10px 20px;
+  color: gray;
+}
+
+.helpCard {
+  padding: 30px;
+  background-color: #343438;
+  max-width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 auto;
+}
+.helpCard h4 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.helpCard p {
+  margin: 0;
+  color: lightgray;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.helpCard i {
+  margin-left: 8px;
+  margin-bottom: 20px;
+  background-color: #767678;
+
+  color: white;
+}
+.helpCard i:hover {
+  background-color: #fff;
+  color: #1a6bda;
+}
+@media only screen and (max-width: 992px) {
+  .sectionThreeParent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .sercChildOne,
+  .sercChildTwo {
+    width: 90%;
+    margin-top: 20px;
+  }
+}

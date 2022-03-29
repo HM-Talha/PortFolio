@@ -1,0 +1,44 @@
+.reasonParent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.reasonChild1 {
+  width: 40%;
+}
+.reasonChild1 img {
+  border-radius: 10px;
+}
+.reasonChild2 {
+  width: 50%;
+  padding: 10px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.subChildReason2 p {
+  color: gray;
+}
+.benefits {
+  font-weight: bolder;
+  font-style: oblique;
+  border-bottom: 1px solid #1367d5;
+  width: 90px;
+}
+.subChildReason2 h5 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #1a1f33;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 990px) {
+  .reasonParent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reasonChild1,
+  .reasonChild2 {
+    width: 90%;
+  }
+}
